@@ -1,0 +1,41 @@
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!.gitignore
+!.codeshipignore
+!wp-content/
+!readme.md
+!composer.lock
+!composer.json
+!Gemfile
+!Gemfile.lock
+!phpcs.ruleset.xml
+
+# Ignore everything in the "wp-content" directory, except the "plugins" and "themes" directories.
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+# Don't ignore some things in static
+!static/
+static/*
+!static/faq_client/
+ 
+# Ignore everything in the "plugins" directory, except the plugins you specify
+wp-content/plugins/*
+!wp-content/plugins/swiftype-search/
+ 
+# Ignore everything in the "themes" directory, except the themes you specify
+wp-content/themes/*
+!wp-content/themes/bonzai/
+
+!wp-content/themes/bonzai/
+wp-content/themes/bonzai/.sass-cache/
+wp-content/themes/bonzai/404-errors.log
+wp-content/themes/bonzai/assets/img/
+# Make sure we include the trace in images
+!wp-content/themes/bonzai/assets/img/*.php
+wp-content/themes/bonzai/dist/
+
+.DS_Store
+_notes
+/vendor/

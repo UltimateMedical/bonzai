@@ -1,0 +1,14 @@
+{
+  "name": "bonzai",
+  "version": "1.0.0",
+  "description": "This is the theme for the Student Portal - Student Success Center",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nasser Abouelazm",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.14.1"
+  }
+}
