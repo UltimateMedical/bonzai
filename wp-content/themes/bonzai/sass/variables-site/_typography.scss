@@ -1,5 +1,212 @@
-$font__main: sans-serif;
-$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-$font__pre: "Courier 10 Pitch", Courier, monospace;
-$font__line-height-body: 1.5;
-$font__line-height-pre: 1.6;
+* {
+	box-sizing: border-box;
+}
+html {
+  // height: 100%;
+  font-size: 14px;
+  // min-height: 100%; /* [3] */
+  -webkit-text-size-adjust: 100%; /* [4] */
+  -ms-text-size-adjust: 100%; /* [4] */
+  -moz-osx-font-smoothing: grayscale; /* [5] */
+  -webkit-font-smoothing: antialiased; /* [5] */
+}
+//need this to hide the "pixel" that google remarketing adds to the page
+iframe[name="google_conversion_frame"] {
+  display: none;
+}
+
+/*body {
+  color: $base-font-color;
+  font-size: $paragraph-font-size;
+  font-family: $paragraph-font-family;
+  font-weight: $paragraph-font-weight;
+  line-height: $paragraph-line-height;
+}*/
+
+a.highlight{
+  color: $secondary-pink;
+}
+
+.brand-highlight {
+  color : $brand-color;
+}
+a.no-link {
+  cursor: default;
+}
+
+a.arrowed{
+  color: $white;
+  i{
+    color: $secondary-pink;
+    padding-left: 5px;
+    font-size: 17px;
+  }
+}
+
+
+.facepile{
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  background: $white;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+a.brand{
+  color: $brand-color!important;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+  &.align_center {
+    margin: 0 auto;
+  }
+}
+
+.image-portrait {
+  display: inline-block;
+  margin: 5px;
+  width: calc(50% - 10px)
+}
+
+a {
+  text-decoration: none;
+  color: $brand-color;
+  &:hover {
+    color: $secondary-pink;
+  }
+  &.whiten {
+    color: $white;
+    text-decoration: underline;
+  }
+}
+
+hr {
+  border: 0;
+  border-top: solid 1px $neutral-grey;
+}
+
+
+.clearboth {
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  width: 100%;
+}
+
+.hidden { 
+  display: none;
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.horizontal-links {
+  list-style: none;
+  padding-left: 0;
+  li {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    line-height: 40px;
+  }
+}
+
+.align {
+  &_center {
+    text-align: center;
+  }
+  &_left {
+    text-align: left;
+  }
+  &_right {
+    text-align: right;
+  }
+}
+
+.brand-icon {
+  color: $brand-color;
+}
+
+.centered-content {
+  text-align: center;
+  p {
+    text-align: center;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+
+  a {
+    text-align: center;
+  }
+
+  img, svg {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.disclaimer {
+  font-size: 75%;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+.desktop-placeholder {
+  opacity: 0 !important;
+}
+.hr--bottom {
+  border-bottom: 1px solid $neutral-grey-subtle;
+
+}
+
+.hr--top {
+  border-top: 1px solid $neutral-grey-subtle;
+}
+
+.color-green {
+  color: $secondary-lime;
+}
+
+.color-yellow {
+  color: $secondary-peach;
+}
+
+.color-grey {
+  color: $secondary-grey;
+}
+
+.color-white {
+  color: $white;
+}
+
+.color-dark-blue {
+  color: $brand-color-dark;
+}
+
+.color-pink {
+  color: $secondary-pink;
+}
+
+.color-blue {
+  color: $brand-color;
+}
+
+.color-purple {
+  color: $secondary-purple;
+}
+
+.color-orange { 
+  color: $secondary-orange;
+}

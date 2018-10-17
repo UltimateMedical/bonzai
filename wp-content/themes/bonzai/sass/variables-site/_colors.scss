@@ -1,20 +1,58 @@
-$color__background-body: #fff;
-$color__background-screen: #f1f1f1;
-$color__background-hr: #ccc;
-$color__background-button: #e6e6e6;
-$color__background-pre: #eee;
-$color__background-ins: #fff9c0;
+/* Brand Colors */
 
-$color__text-screen: #21759b;
-$color__text-input: #666;
-$color__text-input-focus: #111;
-$color__link: royalblue;
-$color__link-visited: purple;
-$color__link-hover: midnightblue;
-$color__text-main: #404040;
+$brand-color: #0095c8;
+$brand-color-dark: #006BA6;
+$brand-color-transparent: #d9eff7;
+$brand-color-85: #33aad3;
 
-$color__border-button: #ccc #ccc #bbb;
-$color__border-button-hover: #ccc #bbb #aaa;
-$color__border-button-focus: #aaa #bbb #bbb;
-$color__border-input: #ccc;
-$color__border-abbr: #666;
+$brand-color-group: $brand-color $brand-color-dark;
+
+$secondary-purple: #68478d;
+$secondary-grey: #505759;
+$secondary-orange: #f68d2e;
+$secondary-pink: #e24585;
+$secondary-seafoam: #00a2b1;
+$secondary-lime: #78be20;
+$secondary-peach: #ffc845;
+$secondary-red: #ba0c2f;
+
+$tertiary-blue: #006aa6;
+
+$secondary-color-group: $secondary-purple $secondary-grey $secondary-orange $secondary-pink $secondary-seafoam $secondary-lime $secondary-peach $secondary-red;
+
+$neutral-black: #000;
+$neutral-grey: #c8c9c7;
+$white: #fff;
+$neutral-grey-subtle: #f0f0f0;
+$base-ui-border: #e6e6e6;
+
+$neutral-color-group: $brand-color-transparent $neutral-black $neutral-grey $white;
+
+$white-transparent: rgba(255, 255, 255, 0.9);
+
+/* Web Color assignments */
+$base-ui-color: $brand-color;
+$background-color: $white;
+$base-font-color: $secondary-grey;
+$heading-color: $brand-color;
+
+$primary: $base-ui-color;
+$success: $secondary-lime;
+$warning: $secondary-peach;
+$error: $secondary-red;
+
+$ui-color-group: $primary $success $warning $error;
+
+// Social Icon Colors
+
+$facebook-blue: #3b5998;
+$twitter-blue: #00aced;
+$google-red: #dd4b39;
+$youtube-red: #bb0000;
+$pintrest-red: #cb2027;
+$linkedin-blue: #007bb6;
+$rss-orange: #FF6600;
+
+// Base UI Borders
+$base-ui-border-width: 1px;
+$base-ui-border-radius: 3px;

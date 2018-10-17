@@ -1,0 +1,25 @@
+.main-container {
+	max-width: 900px;
+	margin: auto;
+}
+.uma-grid {
+	margin:auto;
+}
+.uma-grid-item {
+	width: 180px;
+	padding: 10px;
+	border-radius: 4px;
+	&-img {
+		border-radius: 4px;
+	}
+	&-type {
+		margin-bottom: 5px;
+	}
+	&:hover {
+		background-color: $neutral-grey-subtle;
+	}
+}
+.card-title {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
