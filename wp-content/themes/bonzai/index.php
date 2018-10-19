@@ -19,15 +19,6 @@ get_header();
 		<?php get_template_part( 'headers/tag-slider'); ?>
 
 		<main id="main" class="site-main" style="">
-<!-- 				<div class="uma-grid">
-					<div class="uma-grid-item" style="background-color:green;"> Hi there</div>
-					<div class="uma-grid-item" style="background-color:blue;">Good to see you</div>
-					<div class="uma-grid-item" style="background-color:red;">welcome </div>
-					<div class="uma-grid-item" style="background-color:purple;"> Hi there</div>
-					<div class="uma-grid-item" style="background-color:orange;">Good to see you</div>
-					<div class="uma-grid-item" style="background-color:pink;">welcome </div>
-				</div> -->
-
 		<?php
 		if ( have_posts() ) :
 

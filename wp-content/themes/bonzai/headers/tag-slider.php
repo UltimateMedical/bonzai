@@ -10,7 +10,7 @@
 	];
 	$counter = 0;
 ?>
-<div style="width: 90%; margin-left: auto; margin-right: auto;" class="tag-slider mg-t-15 mg-b-15">
+<div style="" class="tag-slider mg-t-15 mg-b-15 mg-l-20 mg-r-20">
   <?php foreach ($tags as $tag) :?>
   	<a href="<?php echo get_tag_link( $tag->term_id ); ?>"><div class="badge pd-t-10 pd-b-10 pd-l-25 pd-r-25 bg-<?php echo $colors[$counter % 6]; ?> color-white"><h6 class="mg-b-0"><?php echo $tag->name;?></h6></div></a>
   	<?php $counter++; ?>

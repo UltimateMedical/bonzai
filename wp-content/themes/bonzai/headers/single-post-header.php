@@ -7,7 +7,7 @@
 */
 ?>
 <div class="card">
-	<div class="card-body">
-		<a href="/" target="_top">Back</a>
+	<div class="card-body main-container">
+		<a href="/" target="_top"><strong><i class="fa fa-chevron-left"></i> Back</strong></a>
 	</div>
 </div>
