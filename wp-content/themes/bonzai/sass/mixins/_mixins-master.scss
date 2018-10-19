@@ -27,3 +27,32 @@
 @mixin column-width($numberColumns: 3) {
 	width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
 }
+
+@for $i from 0 through 50{
+	@if $i % 5 == 0 {
+		.mg-b-#{$i} {
+			margin-bottom: #{$i}px;
+		}
+		.mg-t-#{$i}  {
+			margin-top: #{$i}px;
+		}
+		.mg-r-#{$i} {
+			margin-right: #{$i}px;
+		}
+		.mg-l-#{$i} {
+			margin-left: #{$i}px;
+		}
+		.pd-b-#{$i} {
+			padding-bottom: #{$i}px;
+		}
+		.pd-t-#{$i}  {
+			padding-top: #{$i}px;
+		}
+		.pd-r-#{$i} {
+			padding-right: #{$i}px;
+		}  
+		.pd-l-#{$i} {
+			padding-left: #{$i}px;
+		}
+	}
+}

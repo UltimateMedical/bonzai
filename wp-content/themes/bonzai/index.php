@@ -14,10 +14,11 @@
 
 get_header();
 ?>
+<?php get_template_part( 'headers/gallery-header'); ?>
+	<div id="primary" class="main-container">
+		<?php get_template_part( 'headers/tag-slider'); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-
+		<main id="main" class="site-main" style="">
 		<?php
 		if ( have_posts() ) :
 
@@ -26,23 +27,23 @@ get_header();
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
-				<?php
-			endif;
+				
+			<?php endif; ?>
+				<div class="uma-grid">
+			<?php
 
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
-
 				/*
 				 * Include the Post-Type-specific template for the content.
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content', get_post_type() );
+				get_template_part( 'template-parts/card');
 
 			endwhile;
 
-			the_posts_navigation();
 
 		else :
 
@@ -50,10 +51,9 @@ get_header();
 
 		endif;
 		?>
-
+			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();
