@@ -1,11 +1,11 @@
 {
-    "key": "group_5bd9d1f088c37",
-    "title": "Video Post",
+    "key": "group_5be1f60314961",
+    "title": "External Website post",
     "fields": [
         {
-            "key": "field_5bd9d3a3b044d",
-            "label": "Video URL",
-            "name": "video_url",
+            "key": "field_5be1f6032557b",
+            "label": "Website URL",
+            "name": "website_url",
             "type": "url",
             "instructions": "",
             "required": 1,
@@ -16,7 +16,7 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "Video URL"
+            "placeholder": "Website URL"
         }
     ],
     "location": [
@@ -24,7 +24,7 @@
             {
                 "param": "post_template",
                 "operator": "==",
-                "value": "template-video-post.php"
+                "value": "template-external-website-post.php"
             }
         ]
     ],
@@ -36,5 +36,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1541473843
+    "modified": 1541535308
 }

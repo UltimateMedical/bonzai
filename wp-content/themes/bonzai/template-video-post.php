@@ -7,6 +7,7 @@
  get_header();  ?>
  <?php
 	$tags = get_the_tags(get_the_ID());
+	the_post();
 	$colors = [
 		'blue',
 		'purple',
@@ -22,11 +23,14 @@
 	 <div class="card pd-t-10 pd-b-10 pd-l-10 pd-r-10" style="width: 30rem; max-width: 100%; margin:auto;">
 	  
 	  <div class="card-body">
-	  	<?php the_post_thumbnail( 'medium-large' ) ?>
-	  	<a href="#" class="btn bg-green color-white btn-lg btn-block mg-t-20 mg-b-20">Visit</a>
+	  <div class="embed-responsive embed-responsive-16by9">
+	  <iframe class="embed-responsive-item"  src="<?php echo the_field("video_url"); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+	  	<a href="<?php echo the_field("video_url"); ?>" target="_blank" class="btn bg-green color-white btn-lg btn-block mg-t-20 mg-b-20">Visit</a>
 	  	<hr style="" />
-	    <h5 class="card-title color-grey"><?php the_field("video_url"); ?> <small style="float:right"><i class="fa fa-play"></i> Video</small></h5>
-	    <p class="card-text color-grey">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	    <h5 class="card-title color-grey"><?php the_title(); ?> <small style="float:right"><i class="fa fa-play"></i> Video</small></h5>
+		<p class="card-text color-grey"><?php the_content(); ?> </p>
+
 	    <?php if ( $tags ) :?>
 	    <span class="color-grey">Tagged with:&nbsp;</span>
 	    	<?php foreach ($tags as $tag) :?>
