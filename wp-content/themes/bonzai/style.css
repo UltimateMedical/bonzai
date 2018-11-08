@@ -27,11 +27,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Posts and pages
 	## Comments
 --------------------------------------------------------------*/
-/* Brand Colors */
+/* Brand Colors - Test */
 /* Web Color assignments */
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html {
   font-size: 14px;
@@ -42,12 +41,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
   /* [5] */
   -webkit-font-smoothing: antialiased;
-  /* [5] */
-}
+  /* [5] */ }
 
-iframe[name=google_conversion_frame] {
-  display: none;
-}
+iframe[name="google_conversion_frame"] {
+  display: none; }
 
 /*body {
   color: $base-font-color;
@@ -57,25 +54,20 @@ iframe[name=google_conversion_frame] {
   line-height: $paragraph-line-height;
 }*/
 a.highlight {
-  color: #e24585;
-}
+  color: #e24585; }
 
 .brand-highlight {
-  color: #0095c8;
-}
+  color: #0095c8; }
 
 a.no-link {
-  cursor: default;
-}
+  cursor: default; }
 
 a.arrowed {
-  color: #fff;
-}
-a.arrowed i {
-  color: #e24585;
-  padding-left: 5px;
-  font-size: 17px;
-}
+  color: #fff; }
+  a.arrowed i {
+    color: #e24585;
+    padding-left: 5px;
+    font-size: 17px; }
 
 .facepile {
   padding: 20px;
@@ -83,44 +75,35 @@ a.arrowed i {
   border-radius: 4px;
   background: #fff;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-}
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
 
 a.brand {
-  color: #0095c8 !important;
-}
+  color: #0095c8 !important; }
 
 img {
   max-width: 100%;
   height: auto;
-  display: block;
-}
-img.align_center {
-  margin: 0 auto;
-}
+  display: block; }
+  img.align_center {
+    margin: 0 auto; }
 
 .image-portrait {
   display: inline-block;
   margin: 5px;
-  width: calc(50% - 10px);
-}
+  width: calc(50% - 10px); }
 
 a {
   text-decoration: none;
-  color: #0095c8;
-}
-a:hover {
-  color: #e24585;
-}
-a.whiten {
-  color: #fff;
-  text-decoration: underline;
-}
+  color: #0095c8; }
+  a:hover {
+    color: #e24585; }
+  a.whiten {
+    color: #fff;
+    text-decoration: underline; }
 
 hr {
   border: 0;
-  border-top: solid 1px #c8c9c7;
-}
+  border-top: solid 1px #c8c9c7; }
 
 .clearboth {
   clear: both;
@@ -128,464 +111,349 @@ hr {
   font-size: 0;
   height: 0;
   line-height: 0;
-  width: 100%;
-}
+  width: 100%; }
 
 .hidden {
-  display: none;
-}
+  display: none; }
 
 .uppercase {
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .horizontal-links {
   list-style: none;
-  padding-left: 0;
-}
-.horizontal-links li {
-  display: inline-block;
-  margin: 0 0 0 10px;
-  line-height: 40px;
-}
+  padding-left: 0; }
+  .horizontal-links li {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    line-height: 40px; }
 
 .align_center {
-  text-align: center;
-}
+  text-align: center; }
 .align_left {
-  text-align: left;
-}
+  text-align: left; }
 .align_right {
-  text-align: right;
-}
+  text-align: right; }
 
 .brand-icon {
-  color: #0095c8;
-}
+  color: #0095c8; }
 
 .centered-content {
-  text-align: center;
-}
-.centered-content p {
-  text-align: center;
-}
-.centered-content h1, .centered-content h2, .centered-content h3, .centered-content h4, .centered-content h5, .centered-content h6 {
-  text-align: center;
-}
-.centered-content a {
-  text-align: center;
-}
-.centered-content img, .centered-content svg {
-  margin: 0 auto;
-  display: block;
-}
+  text-align: center; }
+  .centered-content p {
+    text-align: center; }
+  .centered-content h1, .centered-content h2, .centered-content h3, .centered-content h4, .centered-content h5, .centered-content h6 {
+    text-align: center; }
+  .centered-content a {
+    text-align: center; }
+  .centered-content img, .centered-content svg {
+    margin: 0 auto;
+    display: block; }
 
 .disclaimer {
   font-size: 75%;
   list-style: none;
   margin-left: 0;
-  padding-left: 0;
-}
+  padding-left: 0; }
 
 .desktop-placeholder {
-  opacity: 0 !important;
-}
+  opacity: 0 !important; }
 
 .hr--bottom {
-  border-bottom: 1px solid #f0f0f0;
-}
+  border-bottom: 1px solid #f0f0f0; }
 
 .hr--top {
-  border-top: 1px solid #f0f0f0;
-}
+  border-top: 1px solid #f0f0f0; }
 
 .color-green {
-  color: #78be20;
-}
+  color: #78be20; }
 
 .color-yellow {
-  color: #ffc845;
-}
+  color: #ffc845; }
 
 .color-grey {
-  color: #505759;
-}
+  color: #505759; }
 
 .color-white {
-  color: #fff;
-}
+  color: #fff; }
 
 .color-dark-blue {
-  color: #006BA6;
-}
+  color: #006BA6; }
 
 .color-pink {
-  color: #e24585;
-}
+  color: #e24585; }
 
 .color-blue {
-  color: #0095c8;
-}
+  color: #0095c8; }
 
 .color-purple {
-  color: #68478d;
-}
+  color: #68478d; }
 
 .color-orange {
-  color: #f68d2e;
-}
+  color: #f68d2e; }
 
 .mg-b-0 {
-  margin-bottom: 0px;
-}
+  margin-bottom: 0px; }
 
 .mg-t-0 {
-  margin-top: 0px;
-}
+  margin-top: 0px; }
 
 .mg-r-0 {
-  margin-right: 0px;
-}
+  margin-right: 0px; }
 
 .mg-l-0 {
-  margin-left: 0px;
-}
+  margin-left: 0px; }
 
 .pd-b-0 {
-  padding-bottom: 0px;
-}
+  padding-bottom: 0px; }
 
 .pd-t-0 {
-  padding-top: 0px;
-}
+  padding-top: 0px; }
 
 .pd-r-0 {
-  padding-right: 0px;
-}
+  padding-right: 0px; }
 
 .pd-l-0 {
-  padding-left: 0px;
-}
+  padding-left: 0px; }
 
 .mg-b-5 {
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
 .mg-t-5 {
-  margin-top: 5px;
-}
+  margin-top: 5px; }
 
 .mg-r-5 {
-  margin-right: 5px;
-}
+  margin-right: 5px; }
 
 .mg-l-5 {
-  margin-left: 5px;
-}
+  margin-left: 5px; }
 
 .pd-b-5 {
-  padding-bottom: 5px;
-}
+  padding-bottom: 5px; }
 
 .pd-t-5 {
-  padding-top: 5px;
-}
+  padding-top: 5px; }
 
 .pd-r-5 {
-  padding-right: 5px;
-}
+  padding-right: 5px; }
 
 .pd-l-5 {
-  padding-left: 5px;
-}
+  padding-left: 5px; }
 
 .mg-b-10 {
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
 .mg-t-10 {
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 .mg-r-10 {
-  margin-right: 10px;
-}
+  margin-right: 10px; }
 
 .mg-l-10 {
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 .pd-b-10 {
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px; }
 
 .pd-t-10 {
-  padding-top: 10px;
-}
+  padding-top: 10px; }
 
 .pd-r-10 {
-  padding-right: 10px;
-}
+  padding-right: 10px; }
 
 .pd-l-10 {
-  padding-left: 10px;
-}
+  padding-left: 10px; }
 
 .mg-b-15 {
-  margin-bottom: 15px;
-}
+  margin-bottom: 15px; }
 
 .mg-t-15 {
-  margin-top: 15px;
-}
+  margin-top: 15px; }
 
 .mg-r-15 {
-  margin-right: 15px;
-}
+  margin-right: 15px; }
 
 .mg-l-15 {
-  margin-left: 15px;
-}
+  margin-left: 15px; }
 
 .pd-b-15 {
-  padding-bottom: 15px;
-}
+  padding-bottom: 15px; }
 
 .pd-t-15 {
-  padding-top: 15px;
-}
+  padding-top: 15px; }
 
 .pd-r-15 {
-  padding-right: 15px;
-}
+  padding-right: 15px; }
 
 .pd-l-15 {
-  padding-left: 15px;
-}
+  padding-left: 15px; }
 
 .mg-b-20 {
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .mg-t-20 {
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
 .mg-r-20 {
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
 .mg-l-20 {
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 
 .pd-b-20 {
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
 .pd-t-20 {
-  padding-top: 20px;
-}
+  padding-top: 20px; }
 
 .pd-r-20 {
-  padding-right: 20px;
-}
+  padding-right: 20px; }
 
 .pd-l-20 {
-  padding-left: 20px;
-}
+  padding-left: 20px; }
 
 .mg-b-25 {
-  margin-bottom: 25px;
-}
+  margin-bottom: 25px; }
 
 .mg-t-25 {
-  margin-top: 25px;
-}
+  margin-top: 25px; }
 
 .mg-r-25 {
-  margin-right: 25px;
-}
+  margin-right: 25px; }
 
 .mg-l-25 {
-  margin-left: 25px;
-}
+  margin-left: 25px; }
 
 .pd-b-25 {
-  padding-bottom: 25px;
-}
+  padding-bottom: 25px; }
 
 .pd-t-25 {
-  padding-top: 25px;
-}
+  padding-top: 25px; }
 
 .pd-r-25 {
-  padding-right: 25px;
-}
+  padding-right: 25px; }
 
 .pd-l-25 {
-  padding-left: 25px;
-}
+  padding-left: 25px; }
 
 .mg-b-30 {
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .mg-t-30 {
-  margin-top: 30px;
-}
+  margin-top: 30px; }
 
 .mg-r-30 {
-  margin-right: 30px;
-}
+  margin-right: 30px; }
 
 .mg-l-30 {
-  margin-left: 30px;
-}
+  margin-left: 30px; }
 
 .pd-b-30 {
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
 
 .pd-t-30 {
-  padding-top: 30px;
-}
+  padding-top: 30px; }
 
 .pd-r-30 {
-  padding-right: 30px;
-}
+  padding-right: 30px; }
 
 .pd-l-30 {
-  padding-left: 30px;
-}
+  padding-left: 30px; }
 
 .mg-b-35 {
-  margin-bottom: 35px;
-}
+  margin-bottom: 35px; }
 
 .mg-t-35 {
-  margin-top: 35px;
-}
+  margin-top: 35px; }
 
 .mg-r-35 {
-  margin-right: 35px;
-}
+  margin-right: 35px; }
 
 .mg-l-35 {
-  margin-left: 35px;
-}
+  margin-left: 35px; }
 
 .pd-b-35 {
-  padding-bottom: 35px;
-}
+  padding-bottom: 35px; }
 
 .pd-t-35 {
-  padding-top: 35px;
-}
+  padding-top: 35px; }
 
 .pd-r-35 {
-  padding-right: 35px;
-}
+  padding-right: 35px; }
 
 .pd-l-35 {
-  padding-left: 35px;
-}
+  padding-left: 35px; }
 
 .mg-b-40 {
-  margin-bottom: 40px;
-}
+  margin-bottom: 40px; }
 
 .mg-t-40 {
-  margin-top: 40px;
-}
+  margin-top: 40px; }
 
 .mg-r-40 {
-  margin-right: 40px;
-}
+  margin-right: 40px; }
 
 .mg-l-40 {
-  margin-left: 40px;
-}
+  margin-left: 40px; }
 
 .pd-b-40 {
-  padding-bottom: 40px;
-}
+  padding-bottom: 40px; }
 
 .pd-t-40 {
-  padding-top: 40px;
-}
+  padding-top: 40px; }
 
 .pd-r-40 {
-  padding-right: 40px;
-}
+  padding-right: 40px; }
 
 .pd-l-40 {
-  padding-left: 40px;
-}
+  padding-left: 40px; }
 
 .mg-b-45 {
-  margin-bottom: 45px;
-}
+  margin-bottom: 45px; }
 
 .mg-t-45 {
-  margin-top: 45px;
-}
+  margin-top: 45px; }
 
 .mg-r-45 {
-  margin-right: 45px;
-}
+  margin-right: 45px; }
 
 .mg-l-45 {
-  margin-left: 45px;
-}
+  margin-left: 45px; }
 
 .pd-b-45 {
-  padding-bottom: 45px;
-}
+  padding-bottom: 45px; }
 
 .pd-t-45 {
-  padding-top: 45px;
-}
+  padding-top: 45px; }
 
 .pd-r-45 {
-  padding-right: 45px;
-}
+  padding-right: 45px; }
 
 .pd-l-45 {
-  padding-left: 45px;
-}
+  padding-left: 45px; }
 
 .mg-b-50 {
-  margin-bottom: 50px;
-}
+  margin-bottom: 50px; }
 
 .mg-t-50 {
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .mg-r-50 {
-  margin-right: 50px;
-}
+  margin-right: 50px; }
 
 .mg-l-50 {
-  margin-left: 50px;
-}
+  margin-left: 50px; }
 
 .pd-b-50 {
-  padding-bottom: 50px;
-}
+  padding-bottom: 50px; }
 
 .pd-t-50 {
-  padding-top: 50px;
-}
+  padding-top: 50px; }
 
 .pd-r-50 {
-  padding-right: 50px;
-}
+  padding-right: 50px; }
 
 .pd-l-50 {
-  padding-left: 50px;
-}
+  padding-left: 50px; }
 
 /*--------------------------------------------------------------
 # Normalize
@@ -601,8 +469,7 @@ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
 	 ========================================================================== */
@@ -610,8 +477,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -619,8 +485,7 @@ body {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
 	 ========================================================================== */
@@ -634,8 +499,7 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -645,8 +509,7 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
 	 ========================================================================== */
@@ -654,8 +517,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -667,16 +529,14 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -688,15 +548,13 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -707,16 +565,13 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
 	 ========================================================================== */
@@ -724,8 +579,7 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /* Forms
 	 ========================================================================== */
@@ -745,8 +599,7 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Show the overflow in IE.
@@ -755,8 +608,7 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -765,46 +617,41 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -824,60 +671,53 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type=checkbox],
-[type=radio] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
-  height: auto;
-}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -887,8 +727,7 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
 	 ========================================================================== */
@@ -896,15 +735,13 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 details {
-  display: block;
-}
+  display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Misc
 	 ========================================================================== */
@@ -912,15 +749,13 @@ summary {
  * Add the correct display in IE 10+.
  */
 template {
-  display: none;
-}
+  display: none; }
 
 /**
  * Add the correct display in IE 10.
  */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /*--------------------------------------------------------------
 # Content
@@ -930,117 +765,89 @@ template {
 --------------------------------------------------------------*/
 /* Background Colors */
 .bg-white {
-  background-color: #fff;
-}
+  background-color: #fff; }
 
 .bg-purple {
-  background-color: #68478d;
-}
+  background-color: #68478d; }
 
 .bg-green {
-  background-color: #78be20;
-}
+  background-color: #78be20; }
 
 .bg-grey {
-  background-color: #505759;
-}
+  background-color: #505759; }
 
 .bg-light-grey {
-  background-color: #c8c9c7;
-}
+  background-color: #c8c9c7; }
 
 .bg-ultra-light {
-  background-color: #f0f0f0;
-}
+  background-color: #f0f0f0; }
 
 .bg-dark-blue {
-  background-color: #006BA6;
-}
+  background-color: #006BA6; }
 
 .bg-blue {
-  background-color: #0095c8;
-}
+  background-color: #0095c8; }
 
 .bg-pink {
-  background-color: #e24585;
-}
+  background-color: #e24585; }
 
 .bg-yellow {
-  background-color: #ffc845;
-}
+  background-color: #ffc845; }
 
 .bg-teal {
-  background-color: #00a2b1;
-}
+  background-color: #00a2b1; }
 
 .bg-red {
-  background-color: #ba0c2f;
-}
+  background-color: #ba0c2f; }
 
 .bg-orange {
-  background-color: #f68d2e;
-}
+  background-color: #f68d2e; }
 
 .bg-gradient {
-  background-color: #006BA6;
-}
+  background-color: #006BA6; }
 
 .bg-transparent {
-  background-color: rgba(0, 0, 0, 0);
-}
+  background-color: rgba(0, 0, 0, 0); }
 
 /* Font Colors */
 .color-white {
-  color: #fff;
-}
+  color: #fff; }
 
 .color-purple {
-  color: #68478d;
-}
+  color: #68478d; }
 
 .color-green {
-  color: #78be20;
-}
+  color: #78be20; }
 
 .color-grey {
-  color: #505759;
-}
+  color: #505759; }
 
 .color-light-grey {
-  color: #c8c9c7;
-}
+  color: #c8c9c7; }
 
 .color-ultra-light {
-  color: #f0f0f0;
-}
+  color: #f0f0f0; }
 
 .color-dark-blue {
-  color: #006BA6;
-}
+  color: #006BA6; }
 
 .color-blue {
-  color: #0095c8;
-}
+  color: #0095c8; }
 
 .color-pink {
-  color: #e24585;
-}
+  color: #e24585; }
 
 .color-yellow {
-  color: #ffc845;
-}
+  color: #ffc845; }
 
 .color-teal {
-  color: #00a2b1;
-}
+  color: #00a2b1; }
 
 .color-red {
-  color: #ba0c2f;
-}
+  color: #ba0c2f; }
 
 .color-orange {
-  color: #f68d2e;
-}
+  color: #f68d2e; }
 
 /*--------------------------------------------------------------
 # Pages
@@ -1051,31 +858,24 @@ template {
 .main-container {
   width: 900px;
   max-width: 100%;
-  margin: auto;
-}
+  margin: auto; }
 
 .uma-grid {
-  margin: auto;
-}
+  margin: auto; }
 
 .uma-grid-item {
   width: 180px;
   padding: 10px;
-  border-radius: 4px;
-}
-.uma-grid-item-img {
-  border-radius: 4px;
-}
-.uma-grid-item-type {
-  margin-bottom: 5px;
-}
-.uma-grid-item:hover {
-  background-color: #f0f0f0;
-}
+  border-radius: 4px; }
+  .uma-grid-item-img {
+    border-radius: 4px; }
+  .uma-grid-item-type {
+    margin-bottom: 5px; }
+  .uma-grid-item:hover {
+    background-color: #f0f0f0; }
 
 .card-title {
   margin-top: 10px;
-  margin-bottom: 0px;
-}
+  margin-bottom: 0px; }
 
 /*# sourceMappingURL=style.css.map */
