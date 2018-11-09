@@ -9,5 +9,9 @@ git clone https://github.com/UltimateMedical/bonzai.git
 
 Then cd into the bonzai theme directory and run ``npm install``.
 
+## Plugins
+You need to download and activate the <a href="https://www.advancedcustomfields.com">Advanced Custom Fields</a> plugin.
+
+
 ## Watch Commands
 Simply enter ``npm run watch`` to run the ``sass --watch`` command.  This command looks at the ``style.scss`` file in the ``sass/`` folder and outputs the css to ``style.css`` in bonzai's root.
